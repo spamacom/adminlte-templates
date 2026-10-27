@@ -1,9 +1,9 @@
 {
-    "name": "infyomlabs/adminlte-templates",
+    "name": "spamacom/adminlte-templates",
     "type": "library",
-    "description": "AdminLTE templates for InfyOm Laravel Generator",
+    "description": "AdminLTE templates for Laravel Generator",
     "keywords": [
-        "infyom",
+        "spama",
         "laravel",
         "generator",
         "adminlte",
@@ -13,34 +13,28 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Mitul Golakiya",
-            "email": "me@mitul.me"
+            "name": "Mouhammad Alali",
+            "email": "mouhammad.alali@gmail.com"
         }
     ],
     "require": {
-        "php": "^8.1",
-        "illuminate/support": "^10.0",
-        "illuminate/view": "^10.0",
-        "infyomlabs/laravel-ui-adminlte": "^5.2"
+        "php": "^8.2|^8.3|^8.4|^8.5",
+        "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/view": "^10.0|^11.0|^12.0|^13.0",
+        "spamacom/laravel-ui-adminlte": "^5.2"
     },
     "autoload": {
         "psr-4": {
-            "InfyOm\\AdminLTETemplates\\": "src/"
+            "Spama\\AdminLTETemplates\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "\\InfyOm\\AdminLTETemplates\\AdminLTETemplatesServiceProvider"
+                "Spama\\AdminLTETemplates\\AdminLTETemplatesServiceProvider"
             ]
         }
     },
-    "funding": [
-        {
-            "type": "opencollective",
-            "url": "https://opencollective.com/infyomlabs"
-        }
-    ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
