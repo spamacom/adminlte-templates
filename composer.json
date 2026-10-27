@@ -25,13 +25,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spama\\AdminLTETemplates\\": "src/"
+            "InfyOm\\AdminLTETemplates\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Spama\\AdminLTETemplates\\AdminLTETemplatesServiceProvider"
+                "InfyOm\\AdminLTETemplates\\AdminLTETemplatesServiceProvider"
             ]
         }
     },
